@@ -1,0 +1,91 @@
+*
+  margin: 0
+  padding: 0
+
+body
+  font-family: "Lato", sans-serif
+
+a
+  text-decoration: none
+
+.center
+  padding-left: calc(50% - 570px)
+  padding-right: calc(50% - 570px)
+
+.header
+  background-color: #008DCD
+  height: 75px
+  display: flex
+  align-items: center
+  justify-content: flex-end
+  margin-bottom: 76px
+
+.btn-cart
+  display: block
+  background: #FFCC00
+  font-size: 20px
+  line-height: 19px
+  color: #363636
+  font-weight: 700
+  width: 182px
+  text-align: center
+  padding-top: 16px
+  padding-bottom: 16px
+  transition: background .3s
+  border-radius: 30px
+
+  &:hover
+    background: #FFCC00 - #111
+
+.products
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.product-item
+  width: 360px
+  height: 500px
+  background: #F7F7F7
+  position: relative
+  transition: transform .3s
+  margin-bottom: 30px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-between
+
+  &:hover
+    background: #F7F7F7 - #111
+
+.product-img
+  margin-top: 24px
+
+.product-title
+  margin-top: 48px
+  margin-bottom: 18px
+  font-size: 40px
+  line-height: 58px
+  text-transform: uppercase
+  color: #363636
+
+.product-price
+  font-size: 26px
+  line-height: 19px
+  color: #363636
+
+.by-btn
+  font-size: 16px
+  line-height: 19px
+  color: #FFF
+  background: #008DCD
+  border: 1px solid black
+  padding: 14px 38px
+  display: inline-block
+  align-self: center
+  margin-top: 24px
+  margin-bottom: 48px
+  transition: all .3s
+
+  &:hover
+    background: #008DCD - #111
+    box-shadow: 0 0 5px #008DCD - #111
