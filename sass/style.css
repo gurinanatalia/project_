@@ -122,7 +122,7 @@ a {
       -ms-grid-row-align: center;
       align-self: center;
   margin-top: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 12px;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
